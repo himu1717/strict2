@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part css start */
+header{
+
+background: #f6f9f9;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 1%;
+}
+.logo{
+
+width: 26%;
+
+margin: auto;
+}
+.logo img{
+    padding: 3%;
+}
+nav{
+    width: 21%;
+    margin: auto;
+}  
+nav ul{
+    display: flex;
+    justify-content: space-between;
+} 
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2d3950;
+    font-family: 'Lato', sans-serif;
+
+}
+/* header part css end */
+/* banner part css start */
+.banner{background-image: url(../image/banner-image.png);background-repeat: no-repeat;min-height: 100vh;background-position: center;background-size: cover;display: flex;justify-content: center;align-items: center;}
+.banner-content{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.banner-content h1{
+    
+text-transform: uppercase;
+    
+font-size: 60px;
+    
+font-weight: 700;
+    
+color:#ffffff;
+font-family: 'Lato', sans-serif;
+
+    
+color: white;
+    
+text-align: center;
+}
+.banner-content span{
+    height: 4px;
+    width: 500px;
+    background-color: #15a4fa;
+    display: block;
+    margin-top: 15px;
+}
+.banner-content p{
+    margin: 36px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.banner-content input{
+    border: none;
+    background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 10px 29px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color:#ffffff
+}
+.banner-content input:hover{
+    background-color:#15a4fa ;
+}
+.icon{
+    margin-top: 106px;
+    font-size: 25px;
+    color: #ffff;
+    animation: up-down 1.5s infinite alternate linear;
+}
+.icon i{
+    
+}
+@keyframes up-down{ 
+    0%{ 
+    transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-55px);
+    }
+}
+
+
+/* banner part css end */
+/* sample design css start */
+.sample-design{
+
+background: #f6f9f9;
+
+display: flex;
+
+justify-content: center;
+
+min-height: 300px;
+
+align-items: center;
+}
+.design{
+    
+width: 80%;
+    
+text-align: center;
+}
+.design h1{
+    font-size: 30px;
+    
+font-weight: 400;
+    
+color: #2d3950;
+font-family: 'Lato', sans-serif;
+}
+.design p{
+
+margin-top: 16px;
+
+color: #999999;
+
+font-size: 15px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+
+line-height: 2;
+}
+
+/* sample design css end */
+/* feature css start */
+.featur{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: center;
+
+justify-content: space-between;
+
+height: 360px;
+
+align-items: center;
+}
+.featur-content{text-align: center;width: 30%;}
+.feature-icon{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+2,48baff+48,5fc3ff+49,5fc3ff+49,5fc3ff+100,7db9e8+100 */
+background: rgb(72,186,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(72,186,255,1) 2%, rgba(72,186,255,1) 48%, rgba(95,195,255,1) 49%, rgba(95,195,255,1) 49%, rgba(95,195,255,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 2%,rgba(72,186,255,1) 48%,rgba(95,195,255,1) 49%,rgba(95,195,255,1) 49%,rgba(95,195,255,1) 100%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 2%,rgba(72,186,255,1) 48%,rgba(95,195,255,1) 49%,rgba(95,195,255,1) 49%,rgba(95,195,255,1) 100%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+font-size: 50px;
+
+display: inline-block;
+
+height: 100px;
+
+width: 100px;
+
+line-height: 100px;
+}
+.featur-content h3{
+    margin: 25px;
+    color: #2d3950;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.featur-content p{
+    
+
+
+color: #999999;
+
+font-size: 15px;
+
+font-weight: 400;
+
+font-family: 'Lato', sans-serif;
+
+line-height: 2;
+}
+
